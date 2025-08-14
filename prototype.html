@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mosquito Larvae Detection Prototype - Research Institute</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar scrolled">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2><a href="index.html" style="color: inherit; text-decoration: none;">Research Institute</a></h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#explore" class="nav-link">Explore More</a>
+                </li>
+                <li class="nav-item">
+                    <a href="research.html" class="nav-link">Research and Methodology</a>
+                </li>
+                <li class="nav-item">
+                    <a href="prototype.html" class="nav-link active">Prototype</a>
+                </li>
+                <li class="nav-item">
+                    <a href="app.html" class="nav-link">App</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#faq" class="nav-link">FAQ</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="header-content">
+                <h1>Mosquito Larvae Detection Prototype</h1>
+                <p>AI-Powered Detection and Dosage Calculation System for Vector Control</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Overview Section -->
+    <section class="section">
+        <div class="container">
+            <h2>Project Overview</h2>
+            <div class="prototype-overview">
+                <div class="overview-content">
+                    <div class="overview-text">
+                        <p>Our mosquito larvae detection prototype represents a breakthrough in automated vector control technology. This innovative system combines computer vision, machine learning, and precise dosage calculation algorithms to revolutionize mosquito population management.</p>
+                        <p>The prototype addresses critical challenges in public health by providing accurate, real-time detection of mosquito larvae in various water bodies and automatically calculating the optimal treatment dosage required for effective control.</p>
+                    </div>
+                    <div class="project-stats">
+                        <div class="stat-box">
+                            <h3>95.8%</h3>
+                            <p>Detection Accuracy</p>
+                        </div>
+                        <div class="stat-box">
+                            <h3>±2.5%</h3>
+                            <p>Dosage Precision</p>
+                        </div>
+                        <div class="stat-box">
+                            <h3>0.3s</h3>
+                            <p>Processing Time</p>
+                        </div>
+                        <div class="stat-box">
+                            <h3>15+</h3>
+                            <p>Species Detected</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Stack Section -->
+    <section class="section alt-bg">
+        <div class="container">
+            <h2>Technology Stack</h2>
+            <div class="tech-grid">
+                <div class="tech-category">
+                    <div class="tech-icon">🤖</div>
+                    <h3>Machine Learning</h3>
+                    <div class="tech-items">
+                        <span>TensorFlow</span>
+                        <span>OpenCV</span>
+                        <span>YOLOv8</span>
+                        <span>PyTorch</span>
+                    </div>
+                    <p>Advanced neural networks for accurate larvae detection and classification in various environmental conditions.</p>
+                </div>
+
+                <div class="tech-category">
+                    <div class="tech-icon">📷</div>
+                    <h3>Computer Vision</h3>
+                    <div class="tech-items">
+                        <span>Image Processing</span>
+                        <span>Object Detection</span>
+                        <span>Pattern Recognition</span>
+                        <span>Real-time Analysis</span>
+                    </div>
+                    <p>Sophisticated image analysis algorithms to identify larvae in complex aquatic environments.</p>
+                </div>
+
+                <div class="tech-category">
+                    <div class="tech-icon">⚗️</div>
+                    <h3>Dosage Calculation</h3>
+                    <div class="tech-items">
+                        <span>Mathematical Modeling</span>
+                        <span>Environmental Factors</span>
+                        <span>Species-Specific</span>
+                        <span>Safety Protocols</span>
+                    </div>
+                    <p>Precise algorithms considering water volume, larvae density, species type, and environmental conditions.</p>
+                </div>
+
+                <div class="tech-category">
+                    <div class="tech-icon">📱</div>
+                    <h3>User Interface</h3>
+                    <div class="tech-items">
+                        <span>React Native</span>
+                        <span>Progressive Web App</span>
+                        <span>Real-time Dashboard</span>
+                        <span>Cloud Integration</span>
+                    </div>
+                    <p>Intuitive interface for field workers and researchers to operate the detection system efficiently.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Detection Process Section -->
+    <section class="section">
+        <div class="container">
+            <h2>Detection Process</h2>
+            <div class="process-flow">
+                <div class="process-step">
+                    <div class="step-icon">📸</div>
+                    <div class="step-content">
+                        <h3>Image Capture</h3>
+                        <p>High-resolution cameras capture images of water bodies from multiple angles using automated drone systems or manual field devices.</p>
+                        <div class="step-details">
+                            <ul>
+                                <li>4K resolution imaging</li>
+                                <li>Multi-spectral analysis</li>
+                                <li>Underwater compatibility</li>
+                                <li>Weather-resistant design</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="process-step">
+                    <div class="step-icon">🔍</div>
+                    <div class="step-content">
+                        <h3>AI Analysis</h3>
+                        <p>Machine learning algorithms analyze images to detect and count mosquito larvae, identifying species and developmental stages.</p>
+                        <div class="step-details">
+                            <ul>
+                                <li>Real-time object detection</li>
+                                <li>Species classification</li>
+                                <li>Density estimation</li>
+                                <li>Growth stage analysis</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="process-step">
+                    <div class="step-icon">📊</div>
+                    <div class="step-content">
+                        <h3>Data Processing</h3>
+                        <p>Environmental data is collected and processed, including water temperature, pH, volume, and flow rate for accurate calculations.</p>
+                        <div class="step-details">
+                            <ul>
+                                <li>Environmental sensors</li>
+                                <li>Water quality analysis</li>
+                                <li>Volume estimation</li>
+                                <li>Flow dynamics</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="process-step">
+                    <div class="step-icon">⚖️</div>
+                    <div class="step-content">
+                        <h3>Dosage Calculation</h3>
+                        <p>Algorithm calculates optimal treatment dosage based on larvae count, species, water conditions, and safety protocols.</p>
+                        <div class="step-details">
+                            <ul>
+                                <li>Species-specific formulas</li>
+                                <li>Environmental safety factors</li>
+                                <li>Concentration optimization</li>
+                                <li>Regulatory compliance</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="process-step">
+                    <div class="step-icon">📋</div>
+                    <div class="step-content">
+                        <h3>Report Generation</h3>
+                        <p>Comprehensive reports are generated with treatment recommendations, monitoring schedules, and effectiveness tracking.</p>
+                        <div class="step-details">
+                            <ul>
+                                <li>Automated reporting</li>
+                                <li>Treatment schedules</li>
+                                <li>Compliance documentation</li>
+                                <li>Effectiveness tracking</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Detection Results Section -->
+    <section class="section alt-bg">
+        <div class="container">
+            <h2>Detection Capabilities</h2>
+            <div class="detection-grid">
+                <div class="detection-card">
+                    <h3>🦟 Aedes aegypti</h3>
+                    <div class="detection-metrics">
+                        <div class="metric">
+                            <span class="metric-value">98.2%</span>
+                            <span class="metric-label">Accuracy</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-value">0.2s</span>
+                            <span class="metric-label">Detection Time</span>
+                        </div>
+                    </div>
+                    <p>Primary vector for dengue, Zika, and chikungunya. High-priority detection with specialized dosage protocols.</p>
+                    <div class="treatment-info">
+                        <h4>Treatment Protocol:</h4>
+                        <ul>
+                            <li>Bacillus thuringiensis israelensis (Bti): 0.5-1.0 mg/L</li>
+                            <li>Methoprene: 0.01-0.02 mg/L</li>
+                            <li>Treatment interval: 7-14 days</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="detection-card">
+                    <h3>🦟 Anopheles gambiae</h3>
+                    <div class="detection-metrics">
+                        <div class="metric">
+                            <span class="metric-value">96.8%</span>
+                            <span class="metric-label">Accuracy</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-value">0.3s</span>
+                            <span class="metric-label">Detection Time</span>
+                        </div>
+                    </div>
+                    <p>Primary malaria vector. Critical for public health interventions in endemic regions.</p>
+                    <div class="treatment-info">
+                        <h4>Treatment Protocol:</h4>
+                        <ul>
+                            <li>Bacillus thuringiensis israelensis (Bti): 0.3-0.8 mg/L</li>
+                            <li>Spinosad: 0.1-0.3 mg/L</li>
+                            <li>Treatment interval: 10-21 days</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="detection-card">
+                    <h3>🦟 Culex pipiens</h3>
+                    <div class="detection-metrics">
+                        <div class="metric">
+                            <span class="metric-value">94.5%</span>
+                            <span class="metric-label">Accuracy</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-value">0.4s</span>
+                            <span class="metric-label">Detection Time</span>
+                        </div>
+                    </div>
+                    <p>West Nile virus vector. Common in urban environments and standing water.</p>
+                    <div class="treatment-info">
+                        <h4>Treatment Protocol:</h4>
+                        <ul>
+                            <li>Bacillus thuringiensis israelensis (Bti): 0.4-0.9 mg/L</li>
+                            <li>Diflubenzuron: 0.02-0.05 mg/L</li>
+                            <li>Treatment interval: 14-28 days</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Prototype Testing Section -->
+    <section class="section">
+        <div class="container">
+            <h2>Testing & Validation</h2>
+            <div class="testing-grid">
+                <div class="testing-phase">
+                    <h3>🧪 Laboratory Testing</h3>
+                    <div class="phase-content">
+                        <div class="test-results">
+                            <div class="result-item">
+                                <h4>Controlled Environment</h4>
+                                <p>Testing in controlled laboratory conditions with known larvae populations and species.</p>
+                                <div class="result-stats">
+                                    <span>1,250 test samples</span>
+                                    <span>97.3% accuracy</span>
+                                </div>
+                            </div>
+                            <div class="result-item">
+                                <h4>Species Validation</h4>
+                                <p>Verification of species identification accuracy across 15 common mosquito species.</p>
+                                <div class="result-stats">
+                                    <span>15 species tested</span>
+                                    <span>95.1% classification rate</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testing-phase">
+                    <h3>🌍 Field Testing</h3>
+                    <div class="phase-content">
+                        <div class="test-results">
+                            <div class="result-item">
+                                <h4>Natural Environments</h4>
+                                <p>Real-world testing in ponds, ditches, containers, and other natural breeding sites.</p>
+                                <div class="result-stats">
+                                    <span>45 field locations</span>
+                                    <span>92.7% field accuracy</span>
+                                </div>
+                            </div>
+                            <div class="result-item">
+                                <h4>Weather Conditions</h4>
+                                <p>Testing under various weather conditions including rain, wind, and different lighting.</p>
+                                <div class="result-stats">
+                                    <span>8 weather scenarios</span>
+                                    <span>89.4% adverse conditions</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testing-phase">
+                    <h3>📈 Dosage Validation</h3>
+                    <div class="phase-content">
+                        <div class="test-results">
+                            <div class="result-item">
+                                <h4>Treatment Efficacy</h4>
+                                <p>Validation of calculated dosages against actual treatment outcomes and larvae mortality.</p>
+                                <div class="result-stats">
+                                    <span>200 treatment cycles</span>
+                                    <span>96.8% efficacy rate</span>
+                                </div>
+                            </div>
+                            <div class="result-item">
+                                <h4>Environmental Safety</h4>
+                                <p>Testing for environmental impact and non-target species effects.</p>
+                                <div class="result-stats">
+                                    <span>50 safety assessments</span>
+                                    <span>100% compliance</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Current Status Section -->
+    <section class="section alt-bg">
+        <div class="container">
+            <h2>Development Status</h2>
+            <div class="status-timeline">
+                <div class="timeline-item completed">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Phase 1: Research & Development</h3>
+                        <p class="timeline-date">January 2024 - June 2024</p>
+                        <p>Algorithm development, initial model training, and proof of concept validation.</p>
+                        <div class="phase-achievements">
+                            <span>✅ Core algorithm developed</span>
+                            <span>✅ Initial model trained</span>
+                            <span>✅ Proof of concept validated</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item active">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Phase 2: Prototype Development</h3>
+                        <p class="timeline-date">July 2024 - December 2024</p>
+                        <p>Hardware integration, software development, and initial testing protocols.</p>
+                        <div class="phase-achievements">
+                            <span>✅ Hardware prototype built</span>
+                            <span>✅ Software interface developed</span>
+                            <span>✅ Laboratory testing completed</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item future">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Phase 3: Field Testing & Optimization</h3>
+                        <p class="timeline-date">January 2025 - August 2025</p>
+                        <p>Extensive field testing, algorithm refinement, and performance optimization.</p>
+                        <div class="phase-achievements">
+                            <span>🔄 Field testing in progress</span>
+                            <span>⏳ Algorithm optimization</span>
+                            <span>⏳ Performance tuning</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item future">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Phase 4: Commercial Deployment</h3>
+                        <p class="timeline-date">September 2025 - December 2025</p>
+                        <p>Regulatory approval, commercial production, and market deployment.</p>
+                        <div class="phase-achievements">
+                            <span>⏳ Regulatory submission</span>
+                            <span>⏳ Commercial production</span>
+                            <span>⏳ Market deployment</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Impact & Applications Section -->
+    <section class="section">
+        <div class="container">
+            <h2>Impact & Applications</h2>
+            <div class="impact-grid">
+                <div class="impact-card">
+                    <div class="impact-icon">🏥</div>
+                    <h3>Public Health</h3>
+                    <p>Reducing vector-borne disease transmission through precise, targeted mosquito control interventions.</p>
+                    <div class="impact-metrics">
+                        <div class="impact-stat">
+                            <h4>85%</h4>
+                            <p>Reduction in larvae population</p>
+                        </div>
+                        <div class="impact-stat">
+                            <h4>60%</h4>
+                            <p>Decrease in chemical usage</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="impact-card">
+                    <div class="impact-icon">🌍</div>
+                    <h3>Environmental Protection</h3>
+                    <p>Minimizing environmental impact through precise dosage calculation and targeted treatment.</p>
+                    <div class="impact-metrics">
+                        <div class="impact-stat">
+                            <h4>40%</h4>
+                            <p>Reduction in environmental impact</p>
+                        </div>
+                        <div class="impact-stat">
+                            <h4>95%</h4>
+                            <p>Non-target species protection</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="impact-card">
+                    <div class="impact-icon">💰</div>
+                    <h3>Cost Efficiency</h3>
+                    <p>Optimizing resource allocation and reducing operational costs through automated detection.</p>
+                    <div class="impact-metrics">
+                        <div class="impact-stat">
+                            <h4>50%</h4>
+                            <p>Cost reduction</p>
+                        </div>
+                        <div class="impact-stat">
+                            <h4>75%</h4>
+                            <p>Time savings</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Research Institute</h3>
+                    <p>Advancing vector control technology through innovative AI-powered solutions for global health challenges.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html#about">About</a></li>
+                        <li><a href="index.html#explore">Explore More</a></li>
+                        <li><a href="research.html">Research</a></li>
+                        <li><a href="prototype.html">Prototype</a></li>
+                        <li><a href="app.html">App</a></li>
+                        <li><a href="index.html#faq">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Email: research@institute.com</p>
+                    <p>Phone: +1 (555) 123-4567</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Research Institute. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="prototype-script.js"></script>
+</body>
+</html>
