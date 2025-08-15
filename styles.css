@@ -3736,3 +3736,42 @@ html {
 .explore-card:nth-child(2n+1) {
     animation: float 6s ease-in-out infinite reverse;
 }
+
+/* Screen Size Warning Banner */
+.screen-size-warning {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #ffd700;
+    color: #000;
+    text-align: center;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    z-index: 1001;
+    display: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid #e6c200;
+}
+
+.screen-size-warning.show {
+    display: block;
+}
+
+/* Adjust body padding when warning is shown */
+body.warning-shown {
+    padding-top: 44px;
+}
+
+/* Mobile-specific adjustments for warning */
+@media (max-width: 767px) {
+    .screen-size-warning {
+        font-size: 13px;
+        padding: 8px;
+    }
+    
+    body.warning-shown {
+        padding-top: 40px;
+    }
+}
